@@ -37,5 +37,6 @@ git config --global credential.helper cache		//permitir password cache
 git config --global credential.helper 'cache --timeout=3600'	//cambiar el tiempo
 
 git remote -v
-git remote add origin (direc)
+git remote add origin (direc html)	// conectar con github
+git push origin master		//para cargar la rama master a github
 
