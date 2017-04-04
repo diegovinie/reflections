@@ -1,0 +1,41 @@
+git clone http		//clonar un repositorio
+git init		//sobre el directorio para iniciar el repositorio
+git log			//log de commits
+git status		//status de directorio y stage
+git add archivo		//añadir a stage
+git commit		//hacer el commit
+git checkout ID		//cambiar a un estado según ID
+
+git reset archivo	//borrar del stage
+git reset --hard	//deshacer todos los cambios en directorio y stage
+
+git diff		//para ver las diferencias entre directorio y stage
+git diff --staged	//para dif. entre stage y repositorio
+git diff old new	//comparar dos commits
+
+git config --global user.email	//cambiar el correo del autor
+git config --global merge.conflictstyle diff3 //
+git config --global push.default upstream //
+git config --global core.editor "atom --wait"
+
+git checkout master	//regresa al último commit
+git branch		//muestra las ramas del proyecto
+git branch nombre	//crea una nueva rama
+git checkout nombre	//cambia de rama
+
+git log --graph --oneline master other	
+git show ID		//muestra las diferencias entre un commit y su padre
+git branch -d nombre	//borra una rama
+git merge master ram	//une una rama al master
+git merge --abort	//restaura los archivos si algo sale mal en el merge
+git config --global core.autocrlf true //el problema de retorno de carro
+git checkout -b new_branch_name		//crea rama y cambia a ella
+
+git gc		//ejecuta el recolector de basura
+
+git config --global credential.helper cache		//permitir password cache
+git config --global credential.helper 'cache --timeout=3600'	//cambiar el tiempo
+
+git remote -v
+git remote add origin (direc)
+
